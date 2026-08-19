@@ -9,23 +9,23 @@ My Choice:
   
 2) 
 
-unistd.h
-   │
-   ├── read keyboard input
-   ├── write to terminal
-   ├── process management
-   └── file descriptors
+unistd.h  
+   │  
+   ├── read keyboard input  
+   ├── write to terminal  
+   ├── process management  
+   └── file descriptors  
        
-termios.h
-   │
-   └── control terminal behavior
-       (raw mode, echo, etc.)
+termios.h  
+   │  
+   └── control terminal behavior  
+       (raw mode, echo, etc.)  
 
-sys/ioctl.h
-   │
-   └── communicate with terminal/device
+sys/ioctl.h  
+   │  
+   └── communicate with terminal/device  
 
-sys/types.h
-   │
-   └── system-specific data types
+sys/types.h  
+   │  
+   └── system-specific data types  
 
