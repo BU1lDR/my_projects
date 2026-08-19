@@ -11,27 +11,46 @@ My Choice:
 
 # The Actual Program
 ## Header Files used
-stdio.h  
-     |  
-    └── basic input/output  
 
-unistd.h  
-    │  
-   ├── read keyboard input  
-   ├── write to terminal  
-   ├── process management  
-   └── file descriptors  
-       
-termios.h  
-   │  
-   └── control terminal behavior  
-       (raw mode, echo, etc.)  
+stdio.h
 
-sys/ioctl.h  
-   │  
-   └── communicate with terminal/device  
+    |
 
-sys/types.h  
-   │  
-   └── system-specific data types  
+    └── basic input/output
+
+
+unistd.h
+
+    │
+
+    ├── read keyboard input
+
+    ├── write to terminal
+
+    ├── process management
+
+    └── file descriptors
+
+
+termios.h
+
+    │
+
+    └── control terminal behavior
+
+        (raw mode, echo, etc.)
+
+
+sys/ioctl.h
+
+    │
+
+    └── communicate with terminal/device
+
+
+sys/types.h
+
+    │
+
+    └── system-specific data types
 
