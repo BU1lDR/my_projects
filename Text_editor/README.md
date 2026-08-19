@@ -24,7 +24,7 @@ My Choice:
 
 4) Allow the user to enter some text.  
     We do this by having a 'control mode' and 'editor mode'.  
-    Then we allow the user to switch between the two modes:  
+    Then we allow the user to switch between the two modes:
     - **'esc' key** for 'control mode'
     - **'i' key** for 'editor mode.'  
 
