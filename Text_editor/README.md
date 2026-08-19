@@ -23,8 +23,10 @@ My Choice:
     - **l**: right movement  
 
 4) Allow the user to enter some text.  
-    We do this by having a 'control mode' and 'editor mode'.
-    Then we allow the user to switch between the two modes, using the **'esc' key** for 'control mode' and **'i' key** for 'editor mode.'  
+    We do this by having a 'control mode' and 'editor mode'.  
+    Then we allow the user to switch between the two modes:  
+    - **'esc' key** for 'control mode'
+    - **'i' key** for 'editor mode.'  
 
 5) Now we create a support for opening and saving files.  
     The user should be able to provide a filename at the startup, and have the editor open the file.  
