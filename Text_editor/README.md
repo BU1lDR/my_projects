@@ -9,48 +9,26 @@ My Choice:
   
 2) 
 
-# The Actual Program
-## Header Files used
+## The Actual Program
+### Header Files used
 
 stdio.h
-
-    |
-
-    └── basic input/output
-
+--> basic input/output
 
 unistd.h
-
-    │
-
-    ├── read keyboard input
-
-    ├── write to terminal
-
-    ├── process management
-
-    └── file descriptors
-
+--> read keyboard input
+--> write to terminal
+--> process management
+--> file descriptors
 
 termios.h
-
-    │
-
-    └── control terminal behavior
-
-        (raw mode, echo, etc.)
-
+--> control terminal behavior
+    (raw mode, echo, etc.)
 
 sys/ioctl.h
-
-    │
-
-    └── communicate with terminal/device
+--> communicate with terminal/device
 
 
 sys/types.h
-
-    │
-
-    └── system-specific data types
+--> system-specific data types
 
